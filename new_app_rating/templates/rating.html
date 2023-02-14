@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Rating{% endblock %}
+
+{% block main %}
+    <form action = "{{ url_for('show') }}" method = "post">
+    <h1>Name of subject</h1>
+    <input type="text" name="subject">
+    <h1>Rating</h1>
+    <input class="rating" name="rate" max="5" oninput="this.style.setProperty('--value', this.value)" step="0.5" type="range" value="1">
+    <p><input type = "submit" value = "Submit" /></p>
+{% endblock %}
+
+
+
+
