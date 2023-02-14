@@ -33,3 +33,5 @@ def index():
 
 if __name__ == '__main__':  # consider this line as the main
     app.run('0.0.0.0', 8080, debug=True)  # start web server in debug mode on port 8080
+
+app.run(debug=True)
