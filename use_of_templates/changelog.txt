@@ -1,0 +1,10 @@
+#  Changelog
+
+All notable changes to this project will be documented in this file. 
+
+### Fixed
+
+- In templates/base.html change XXXX.css to main.css (line 8)
+- In use_of_template/app.py change date=XXX to date=date and hour=XXX to hour=XXX (line 32)
+
+
